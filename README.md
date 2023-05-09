@@ -4,10 +4,11 @@ Esse é um projeto da matéria de Algebra Linear e Teoria da Informação do Ins
 
 # Projeto: Jogo de Forca
 
-Neste projeto, usaremos o conceito de entropia e tudo o que analisamos até o momento para fazer um jogador de forca. objetivo da atividade é fazer um jogador automático de forca que ganha o máximo de vezes possível com apenas 5 vidas. Ao criar um novo jogo, o jogador recebe a informação de quantas letras a palavra tem. Em uma jogada típica, o jogador escolhe uma letra. O "juiz" retorna ua lista com os índices em que essa letra aparece na palavra secreta. Se a letra não aparece, retorna uma lista vazia e o jogador perde uma vida. A qualquer momento, o jogador pode consultar suas vidas (`jogo.vidas`), mas, obviamente, não pode consultar a palavra escolhida. O jogador ganha quando, por saber qual palavra foi escolhida, usa o método `tentar_palavra` informando a palavra correta. Se usar o método mas não acertar, perde o jogo imediatamente. Sempre que o jogador ganha o juiz retorna `True`. Quando ele perde, retorna `False`.
+Neste projeto, o grupo deverá projetar e avaliar um jogador de forca. Em sua avaliação, deve executar um número grande de jogos diferentes (no mínimo 100) e então reportar a probabilidade de seu algoritmo vencer o jogo.
 
 ## Modelo matemático e Explicação
 
+Neste projeto, usaremos o conceito de entropia e tudo o que analisamos até o momento para fazer um jogador de forca. objetivo da atividade é fazer um jogador automático de forca que ganha o máximo de vezes possível com apenas 5 vidas. Ao criar um novo jogo, o jogador recebe a informação de quantas letras a palavra tem. Em uma jogada típica, o jogador escolhe uma letra. O "juiz" retorna ua lista com os índices em que essa letra aparece na palavra secreta. Se a letra não aparece, retorna uma lista vazia e o jogador perde uma vida. A qualquer momento, o jogador pode consultar suas vidas (`jogo.vidas`), mas, obviamente, não pode consultar a palavra escolhida. O jogador ganha quando, por saber qual palavra foi escolhida, usa o método `tentar_palavra` informando a palavra correta. Se usar o método mas não acertar, perde o jogo imediatamente. Sempre que o jogador ganha o juiz retorna `True`. Quando ele perde, retorna `False`.
 
 ## Resultado final
 
