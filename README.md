@@ -39,6 +39,7 @@ python demo.ipynb
 
 IME USP. br-sem-acentos. Disponível em <https://www.ime.usp.br/~pf/dicios/br-sem-acentos.txt>. Acesso em 09 de Maio de 2023.
 
-TIAGO. 07-compressao.ipynb. Disponível em <`07-compressao.ipynb`>. Acesso em 09 de Maio de 2023.
+TIAGO FERNANDES TAVARES. 07-compressao.ipynb. Disponível em <https://github.com/tiagoft/alglin-alunos/blob/main/07-compressao.ipynb>. 
+Acesso em 09 de Maio de 2023.
 
 
